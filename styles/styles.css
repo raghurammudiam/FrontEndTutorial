@@ -1,76 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header h1{
-    text-align: center;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.322);
-    width: 95%;
-    margin: auto;
+header {
+  text-align: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.322);
+  width: 100%;
+  margin: auto;
 }
 
-.main{
-    display: flex;
-    justify-content: center;
-    align-items:center;
-    height: 80vh;
+.mainSection {
+  width: 100%;
+  height: 90vh;
+}
+
+.topicsCardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
 }
 
 .topicsCard {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1px;
-    background-color:black;
-    height: 200px;
-    width: 95%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background-color: black;
+  height: 200px;
+  width: 95%;
 }
 
-.topicsCard div h2{
-    color: white;
+.topicsCard div h2 {
+  color: white;
 }
 
-.topicsCard div{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-right: 1px solid white;
-    height: 100%;
-    transition: 0.5s;
+.topicsCard div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid white;
+  height: 100%;
+  transition: 0.5s;
 }
 
-.topicsCard a{
-    display: block;
-    text-decoration: none;
+.topicsCard a {
+  display: block;
+  text-decoration: none;
 }
 
-.topicsCard div:hover{
-    background-color: teal;
-    transform: translateY(2px);
-    box-shadow: 0px 2px black;
+.topicsCard div:hover {
+  background-color: teal;
+  transform: translateY(2px);
+  box-shadow: 0px 2px black;
 }
 
-footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgb(0, 0, 0);
-    color: grey;
-    font-size: 10px;
-    width: 95%;
-    height: 20px;
-    margin: auto;
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: grey;
+  font-size: 10px;
+  width: 100%;
+  height: 20px;
+  margin: auto;
 }
 
 /*******************************************HTML page**********************************/
 
-.sidebar{
- display: flex;
- flex-direction: column;
- height: 100vh;
- width:20%;
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  width: 20%;
 
- border: 1px solid white;
- background-color: black;
+  border: 1px solid white;
+  background-color: black;
 }
